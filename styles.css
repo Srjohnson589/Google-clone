@@ -20,29 +20,41 @@ body button:hover {
 
 /* TOP NAV STYLING */
 
-#top-nav {
+.top-nav {
     display: flex;
     padding: 6px;
     justify-content: space-between;
 }
 
-#top-nav a {
+.top-nav a {
     display: inline-block;
     padding: 5px;
     margin: 0 5px;
 }
 
-#top-nav-left a {
+.top-nav-left a {
     color: #bdc1c6
 }
 
-#top-nav-right a {
+.top-nav-right a {
     color: #FFFFFF
 }
 
+.waffle {
+    padding: 0;
+}
+
+#waffle-icon {
+    height: 25px;
+    background: #FFFFFF;
+
+}
+
 #sign-in-btn {
-    background-color: rgb(113, 145, 209);
+    background: #8ab4f8;
     color: black;
+    padding: 10px 25px;
+    border-radius: 5px;
 }
 
 
